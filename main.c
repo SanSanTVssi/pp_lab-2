@@ -67,7 +67,7 @@ int main() {
     // цикл для виводу результатів обчислення потоків
     for (int j = 0; j <= data_arg.n; j++) {
         float tmp_x = data_arg.a + ((float)j * data_arg.h);
-        usleep(5000); // затримка синхронізації
+        usleep(5000); // затримка для синхронізації
         printf("|\t%d\t|", j);
         (tmp_x < 0) ? printf("\t%f\t|", tmp_x) : printf("\t %f\t|", tmp_x);
         (res.func1 < 0) ? printf("\t%f\t\t|", res.func1) : printf("\t %f\t\t|", res.func1);
