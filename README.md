@@ -3,10 +3,10 @@
 
 # Для запуску на linux(ubuntu arm64):
 * gcc -o main main.c -lpthread -lm
-* Або використовуючи make:
+* Або використовуючи make:\n
   $ make build // для створення виконуваного файлу
 * або
-  $ make run // білд + запуск
+  $ make run // білд + запуск\n
   $ make clean // видалення виконуваного файлу
 
 # Для запуску на macos(Big Sur, M1, arm64)
