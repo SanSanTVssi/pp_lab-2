@@ -20,8 +20,8 @@ struct Data_params {
     float b;
     int n;
     float h;
-}; 
-struct Data_params data_arg; 
+};
+struct Data_params data_arg;
 // структура та її об'єкт для передавання параметра у потік
 
 struct Data_result {
@@ -40,7 +40,7 @@ void *func2(void *arg);
 void *func3(void *arg);
 
 int main() {
-    pthread_t pthread1; 
+    pthread_t pthread1;
     pthread_t pthread2;
     pthread_t pthread3;
     // оголошення потоків
@@ -91,7 +91,7 @@ int main() {
 
 void *func1(void *arg) {
     // приведення безтипового параметра до вказівника на об'єкт структури
-    struct Data_params *p = (struct Data_params *) arg; 
+    struct Data_params *p = (struct Data_params *) arg;
 
     float x;
     for (int j = 0; j <= p->n; j++) {
