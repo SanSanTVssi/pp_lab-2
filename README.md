@@ -1,16 +1,5 @@
-# pp_lab-2
-Лабораторна робота №2 з дисципліни "Паралельне програмування"
+# Laboratory work №2 on subject "Parallel programming"
 
-# Для запуску на linux(ubuntu arm64):
-* gcc -o main main.c -lpthread -lm
-* Або використовуючи make:
-* $ make build // для створення виконуваного файлу
-* або
-* $ make run // білд + запуск
-* $ make clean // видалення виконуваного файлу
-
-# Для запуску на macos(Big Sur, M1, arm64)
-* використовуємо папку "macos"
-* #include "pthread_barrier.h" для підключення бар'єрів (нативної реалізації немає)
-* $ gcc -o main main.c - створення виконуваного файлу
-* $ ./main - запуск
+# OSX
+* located in directory macos
+* There is not native realisation of pthread_barrier in OSX
