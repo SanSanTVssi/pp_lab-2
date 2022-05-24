@@ -8,5 +8,4 @@
 #include <pthread_barrier.h>
 
 pthread_barrier_t barrier;
-
-void* GetBarrierPointer() { return &barrier; }
+void* pbarrier = &barrier;

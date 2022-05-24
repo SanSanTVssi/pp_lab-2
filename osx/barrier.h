@@ -8,6 +8,6 @@
 #ifndef barrier_h
 #define barrier_h
 
-void* GetBarrierPointer();
+extern void* pbarrier;
 
 #endif /* barrier_h */

@@ -8,13 +8,13 @@
 #ifndef functions_h
 #define functions_h
 
-float CalculateX(float a, float h, float i);
+double CalculateX(double a, double h, double i);
 void *function1(void *args);
 void *function2(void *args);
 void *function3(void *args);
 
-float GetFunction1Result();
-float GetFunction2Result();
-float GetFunction3Result();
+double GetFunction1Result(void);
+double GetFunction2Result(void);
+double GetFunction3Result(void);
 
 #endif /* functions_h */
